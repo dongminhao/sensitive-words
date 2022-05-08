@@ -1,0 +1,10 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://xxxxxxx:xxxxxxx/xxxxxxx?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: xxxxxxx
+    password: xxxxxxx
